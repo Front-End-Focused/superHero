@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "umd",
+        "target": "ES6",
+        // "jsx": "preserve",
+        "strictFunctionTypes": false,
+        "sourceMap": true
+    },
+    "listFiles": false,
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

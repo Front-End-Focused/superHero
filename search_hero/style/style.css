@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/* #61892F - #86C232 - #222629 - #474B4F - #6B6E70 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container_main {
+  width: 100%;
+  height: 100vh;
+  background-color: #222629;
+}
+
+.button_theme_block {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+}
+
+.button_theme {
+  display: flex;
+  color: #86c232;
+}
+
+.button_h_radius_off {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  padding: 3px;
+  margin: 0 0 0 7px;
+  border: 1px solid #86c232;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.button_h_radius_on {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 45px;
+  padding: 3px;
+  margin: 0 0 0 7px;
+  border: 1px solid #86c232;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.circle {
+  border-radius: 35px;
+  background-color: #86c232;
+  width: 13px;
+  height: 13px;
+}
+
+.container_position_input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.search_input {
+  margin-top: 266px;
+  background: #474b4f;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  width: 35%;
+  height: 40px;
+  color: #86c232;
+  text-align: left;
+  padding: 0 0 0 20px;
+  font-size: 24px;
+  outline: none;
+}
+
+.search_description_block {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.search_description {
+  display: inline-block;
+  width: 32%;
+  font-size: 24px;
+  line-height: 28px;
+  color: #61892f;
+}
+
+.btn-search {
+  height: 40px;
+  border: none;
+  width: 5%;
+  border-radius: 0 10px 10px 0;
+  background-color: #86c232;
+  color: #474b4f;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background-color: #474b4f;
+  color: #86c232;
+  height: 40px;
+  border: solid 1px #86c232;
+}
+
+.btn-search:active {
+  background-color: #222629;
+  color: #86c232;
+  height: 40px;
+  border: solid 1px #86c232;
+  /* cursor:; */
+}
